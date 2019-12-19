@@ -1,0 +1,35 @@
+f=ma
+F=-kx
+F=m*(d2x/dt2)
+(d2x/dt2)=-w^2
+T=2pi/w
+x(t)=Asin(wt+fi)
+dx/dt=Acos(wt+fi)*w
+d2x/dt=w^2Asin(wt+fi)
+
+x(0)=Asin(w*0*fi)=Asin(fi)
+
+dx/dt=v=a*w
+v(0)=dx/dt=Acos(wt+fi)*w=Awcos(fi)
+
+//numeryczne rozwiazanie:
+dx/dt=v
+dv/dt=-w^2*x
+
+przestrzen fazowa v(x)-ko³o
+
+//zapis rownan roz
+dx1/dt=x2
+dx2/dt=-w^2x1
+
+x1'  x2
+   =
+x2'  -w^2x1
+
+
+x1'  f1(x1,x2)
+   =
+x2'  f2(x1,x2)
+
+x'=f(x)
+x=[x1,x2]
